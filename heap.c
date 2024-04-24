@@ -1,9 +1,6 @@
 #include "heap.h"
 #include "custom_unistd.h"
 #include <string.h>
-#include "tested_declarations.h"
-#include "rdebug.h"
-
 #define FENCE 4
 #define PAGE 4096
 
