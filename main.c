@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "heap.h"
 #include "custom_unistd.h"
-#include "tested_declarations.h"
-#include "rdebug.h"
 
 int main() {
     heap_setup();
@@ -12,4 +10,3 @@ int main() {
     heap_clean();
     return 0;
 }
-
